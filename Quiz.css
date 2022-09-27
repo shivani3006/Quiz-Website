@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://st2.depositphotos.com/6440552/10272/i/600/depositphotos_102723890-stock-photo-infinite-question-marks.jpg) center/cover fixed;
+
+}
+.container{
+    border: 2px solid rgb(64, 146, 124);
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0);
+}
+.container .form{
+    padding: 30px;
+}
+.container .form .title{
+    position: relative;
+    font-size: 27px;
+    font-weight: 600;
+}
+.title{
+    color: grey;
+}
+.form .title::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width:30px ;
+    background-color: #4070f4;
+    border-radius: 25px;
+}
+.form .input-field{
+    background-color:red;
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top:30px ;
+    border-radius: 6px;
+
+}
+.input-field input{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0 35px;
+}
+.input-field input:is(:focus,:valid){
+    border: 2px solid #53bee2;
+}
+.input-field i{
+    position: absolute;
+    top: 25%;
+    left: 0;
+    transform: transform(-50%);
+    color: #999;
+    font-size: 23px;
+}
+
+.form.button{
+    margin-top: 35px;
+
+}
+.form .button input{
+    border: none;
+    color: #fff;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: #4070f4;
+    font-size: 25px;
+}
+.title:hover{
+    color:#6596e0;
+}
+#myDate{
+    color: grey;
+}
+.text:hover{
+    color: #4294e1;
+}
+.input-field button:hover{
+    color: rgb(255, 0, 47);
+}

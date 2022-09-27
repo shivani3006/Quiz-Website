@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="Quiz2.css">
+    <style>
+        *{
+            background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXBqOs81jzbGbCw_-yGUpLxBz9aGKFNw8z1A&usqp=CAU) center/cover fixed;
+        }
+
+        @keyframes animate{
+            0%{
+                font-size: 25px;
+            }
+            100%{
+                font-size: 35px;
+            }
+        }
+
+        p{
+            text-align: center;
+            color: #fff;
+            font-size: 25px;
+            font-weight: 700;
+            /* transition: 0.4s all; */
+            animation-name: animate;
+            animation-direction: alternate;
+            animation-duration: 1000ms;
+            animation-timing-function: ease-out;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes animate{
+            0%{
+                font-size: 25px;
+            }
+            100%{
+                font-size: 35px;
+            }
+        }
+
+        .body{
+            width: 90vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .wrap{
+            width: 100%;
+            transition: 0.4s all;
+        }
+    </style>
+</head>
+<body>
+    <div class="body">
+        <div class="wrap">
+    <p id="info"></p>
+    <p>Thank you!!</p>
+    <p>Your quiz has been submitted successfully....</p>
+    </div>
+    </div>
+</body>
+</html>

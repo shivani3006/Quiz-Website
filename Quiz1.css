@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: black;
+    height:50px; 
+    color: white;
+     padding: 20px; 
+     font-weight: bold;
+     font-size: 50px;
+     transition:5s;
+    
+}
+body{
+    height: 100vh;
+    background: url(https://st2.depositphotos.com/3343907/9765/i/600/depositphotos_97654068-stock-photo-take-our-quiz-text-concept.jpg) center/cover fixed;
+    
+}
+.main{
+    display: flex;
+    padding-top:80px;
+   
+}
+li{
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+.left{
+    padding-left: 11%;
+    font-size: 25px;
+
+}
+.right{
+    padding-left: 20%;
+   
+}
+button{
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    background-color: rgb(199, 163, 241);
+   margin-left: 100px;
+}
+.left{
+    position: absolute;
+    left: 860px;
+}
+.button{
+    position: absolute;
+    left: 66%;
+    top: 82%;
+}
+#heading:hover{
+    color:purple;
+}
+.button:hover{
+    color: rgb(111, 17, 99);
+}
+.middle:hover{
+    color:rgb(50, 105, 94);
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="Quiz.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <div class="form login" >
+                <span class="title"><marquee direction="right" scrollamount="6" behavior="alternate">Login</marquee></span>
+                <form action="/action_page.php" onsubmit = "return(validate())" name="myForm" method="post">
+                    <div class="input-field">
+                        <input type="text" placeholder="Enter your name"  id="name" class="text">
+                       <i class="uil uil-grin"></i>
+                    </div>
+
+                    <div class="input-field">
+                        <input type="number" placeholder="Enter your roll no." id="roll_no" class="text">
+                       <i class="uil uil-smile-beam"></i>
+                    </div>
+
+                    <div class="input-field">
+                    <input type="text" placeholder="Enter your email" id="email" class="text">
+                   <i class="uil uil-envelopes"></i>
+                </div>
+                <div class="input-field">
+                    <input type="number" placeholder="Enter your phone number" maxlength=10  id="phone_no" class="text">
+                    <i class="uil uil-mobile-android-alt "></i>
+                </div>
+                <div class="input-field">
+                    <input type="date" placeholder="Enter your date of birth" id="myDate" class="text">
+                   <i class="uil uil-calendar-alt"></i>
+                </div>
+                <div class="input-field button">
+                    <input type="button" value="login now" onClick="submit_func()" id="Submit_btn">
+                  
+                </div>
+                <p id="demo"></p>
+                </form>
+            </div>
+        </div>
+    </div>
+<script src="Script1.js"></script>
+</body>
+</html>
